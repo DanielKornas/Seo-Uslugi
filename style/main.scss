@@ -1,0 +1,34 @@
+@import 'bootstrap/assets/stylesheets/bootstrap';
+#navbar-top{
+    border:none;
+
+    .active > a{
+        background:none;
+    }
+}
+.navbar-brand {
+    padding: 10px 0 10px 10px;
+
+    img {
+        height: 100%;
+        width: auto;
+    }
+}
+
+.navbar-static-top {
+    background: #fff;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav {
+    .active > a{
+        border-bottom: 2px solid ;
+    }
+    li > a:hover {
+        border-bottom: 2px solid #eeeeee;
+    }
+}
+#slider{
+    border-top:2px solid #e7e7e7;
+    border-bottom:2px solid #e7e7e7;
+}
