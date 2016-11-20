@@ -9,7 +9,7 @@
     <meta name="keywords" content="tworzenie tekstów,teksty na strony internetowe,tworzenie tekstów na strony internetowe,teksty z synonimami,artykuły z synonimami,artykuły do mieszarek,opisy do katalogów,teksty do presell pages,seo zaplecza,zaplecza seo,zaplecze pozycjonowanie"
     />
     <meta name="author" content="Daniel Kornas">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style/main.nested.css">
 </head>
 
@@ -38,8 +38,3 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid" id="slider">
-        <div class="row">
-            <img src="images/slider2.png" class="img-responsive">
-        </div>
-    </div>

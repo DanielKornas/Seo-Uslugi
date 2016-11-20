@@ -1,11 +1,19 @@
+$icon-font-path: 'bootstrap/assets/fonts/bootstrap/';
 @import 'bootstrap/assets/stylesheets/bootstrap';
-#navbar-top{
-    border:none;
+@import 'animate';
 
-    .active > a{
-        background:none;
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#navbar-top {
+    border: none;
+
+    .active > a {
+        background: none;
     }
 }
+
 .navbar-brand {
     padding: 10px 0 10px 10px;
 
@@ -21,14 +29,67 @@
 }
 
 .navbar-default .navbar-nav {
-    .active > a{
-        border-bottom: 2px solid ;
+    .active > a {
+        border-bottom: 2px solid;
     }
+
     li > a:hover {
         border-bottom: 2px solid #eeeeee;
     }
 }
-#slider{
-    border-top:2px solid #e7e7e7;
-    border-bottom:2px solid #e7e7e7;
+
+#slider {
+    border-top: 2px solid #e7e7e7;
+    border-bottom: 2px solid #e7e7e7;
+    position: relative;
+
+    h1 {
+        position: absolute;
+        top: 5%;
+        right:5%;
+        color: #e3e3e3;
+        background: rgba(255,255,255,0.15);
+        padding: 10px 20px;
+    }
+
+    h2 {
+        position: absolute;
+        top:45%;
+        right:5%;
+        color: #e3e3e3;
+        background: rgba(0,0,0,0.40);
+        padding: 10px 20px;
+    }
+    @media only screen and (max-width: 300px) {
+        h1 {
+            font-size: 14px;
+        }
+        h2{
+            font-size:14px;
+        }
+    }
+    @media only screen and (min-width: 301px) {
+        h1 {
+            font-size: 20px;
+        }
+        h2 {
+            font-size: 18px;
+        }
+    }
+    @media only screen and (min-width: 481px) {
+        h1 {
+            font-size: 28px;
+        }
+        h2 {
+            font-size: 24px;
+        }
+    }
+    @media only screen and (min-width: 960px) {
+        h1 {
+            font-size: 36px;
+        }
+        h2 {
+            font-size: 26px;
+        }
+    }
 }
